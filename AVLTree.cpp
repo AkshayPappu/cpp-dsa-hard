@@ -13,24 +13,24 @@ Things to Note:
 - requires rebalancing algorithm that handles 4 edge cases
 
 Left skew
-    10                              20
-  20       -> rotate right ->     30  10
-30
+    30                              20
+  20       -> rotate right ->     10  30
+10
 
 Right skew
 10                                  20
-  20      -> rotate left ->       30  10
+  20      -> rotate left ->       10  30
     30
 
 Left skew and left child leans right
-  10                                          10
-20      -> rotate left child left ->      20      -> rotate right
- 30                                    30
+  30                                          30
+10      -> rotate left child left ->      20      -> rotate right
+ 20                                    10
 
 Right skew and right child leans left
 10                                        10
-  20    -> rotate right child right ->      20      -> rotate left
-30                                            30
+  30    -> rotate right child right ->      20      -> rotate left
+20                                            30
 
 */
 
