@@ -8,7 +8,7 @@ AVLTree:
 Problem it solves: Self-rebalances to ensure worst case queries are optimized
 
 Things to Note:
-- need to keep track of node height
+- need to keep track of node height and update it when necessary
 - need to calculate balance factor for node (< -1 or > 1 is skew)
 - requires rebalancing algorithm that handles 4 edge cases
 
