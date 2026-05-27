@@ -29,7 +29,7 @@ Left skew and left child leans right
 
 Right skew and right child leans left
 10                                        10
-  20    -> rotate right child right ->      20      -> rorate left
+  20    -> rotate right child right ->      20      -> rotate left
 30                                            30
 
 */
