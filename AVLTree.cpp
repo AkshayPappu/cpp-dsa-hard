@@ -5,7 +5,7 @@ using namespace std;
 /*
 AVLTree:
 
-Problem it solves: Self-rebalances to ensure worst case queries are optimized
+Problem it solves: Self-rebalances to ensure worst case queries are optimized, best used for fast searches
 
 Things to Note:
 - need to keep track of node height and update it when necessary
