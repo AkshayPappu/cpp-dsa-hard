@@ -5,7 +5,7 @@ using namespace std;
 /*
 Segment Tree
 
-Problem it solves: Range sums in log(n) with changing elements
+Problem it solves: Range sums in log(n); efficient when there are frequent updates
 
 Things to Note:
 - Recursion is intuitive
