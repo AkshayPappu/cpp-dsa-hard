@@ -6,6 +6,7 @@ Red Black Tree
 
 Problem it solves: Self balancing tree that ensures that the distance from the root to the furthest leaf is at most 2x that of the closest leaf
 - best used as a general purpose data structure with many insertions and deletions
+- used in std::map, std::set, Linux completely fair scheduler
 
 Insert Cases:
 Case 0: node is root: make it black
